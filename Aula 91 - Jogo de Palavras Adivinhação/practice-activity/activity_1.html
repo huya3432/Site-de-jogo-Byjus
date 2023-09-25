@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--TÍTULO-->
+		<title>Atividade 1</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--LINKS BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container">
+			<h1 style="text-align: center;">Atividade 1</h1>
+			<!--AULA 89-->
+			<!--MANTÉM A PONTUAÇÃO, ELE ESTÁ NO 0, POIS SEMPRE INICIARÁ COM ESTE NÚMERO-->
+			<h2 id="score">Pontuação: 0</h2>
+
+			<!--AULA 89-->
+			<!--Atualiza a pontuação o onclick="UpdateScore()-->
+			<!--btn: adicionará preenchimento e removerá a borda e a cor padrão do botão
+				btn-warning: irá adicionar borda laranja clara e cor de fundo ao botão.-->
+				<button class="btn btn-warning" onclick="updateScore()">Atualizar Pontuação</button>
+			<br>
+			<br>
+
+			<!--AULA 89-->
+			<!--btn-success: adicionará borda verde clara e cor de fundo ao botão e o saveScore salavará a pontuação-->
+			<button class="btn btn-success" onclick="saveScore();">Salvar Pontuação</button>
+			<br>
+			<br>
+			
+			<!--AULA 89-->
+			<!--btn-info: irá adicionar borda azul claro e cor de fundo ao botão e o nextPage irá para a próxima página-->
+			<button class="btn btn-info" onclick="nextPage();">Próxima Página</button>
+		</div>
+	
+		<script src="activity1.js"></script>
+	</body>
+</html>
